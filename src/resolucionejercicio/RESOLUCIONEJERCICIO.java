@@ -5,6 +5,8 @@
  */
 package resolucionejercicio;
 
+import java.util.Scanner;
+
 /**
  *
  * @author TOSHIBA
@@ -15,7 +17,14 @@ public class RESOLUCIONEJERCICIO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner edad=new Scanner(System.in);
+        int edadHermano1,edadHermano2;
+        int diferencia;
+        
+        System.out.println("Ingresa la edad del primer Hermano:\n" );
+        edadHermano1= edad.nextInt();
+        System.out.println("Ingresa la edas del segundo Hermano:\n");
+        edadHermano2= edad.nextInt();
     }
     
 }
